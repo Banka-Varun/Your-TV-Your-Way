@@ -1,0 +1,22 @@
+# Xiaomi Mi TV 4i (magnolia), Android 9, SDK 28
+# Debloat list: telemetry, ads/PatchWall home rows, background services.
+# User wants to keep preinstalled games/apps (com.google.android.play.games etc.), keeping them out of this list.
+
+# Xiaomi telemetry
+com.miui.tv.analytics
+com.xiaomi.statistic
+
+# PatchWall and Mi content rows / promos / stock leanback launcher
+com.mitv.tvhome.atv
+com.google.android.tvlauncher
+com.google.android.leanbacklauncher
+com.google.android.tvrecommendations
+com.google.android.leanbacklauncher.recommendations
+
+# Xiaomi background services & analytics
+com.xiaomi.mitv.tvmanager
+com.xiaomi.mitv.smartshare
+com.mitv.milinkservice
+com.xiaomi.mitv.updateservice
+com.xiaomi.amazon.alexa
+android.autoinstalls.config.xiaomi.amelie
